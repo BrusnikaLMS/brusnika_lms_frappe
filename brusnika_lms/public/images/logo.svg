@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="24" fill="#1976D2"/>
+  <!-- Graduation cap body -->
+  <polygon points="100,52 174,88 100,124 26,88" fill="white"/>
+  <!-- Cap brim shade -->
+  <polygon points="100,108 148,86 148,112 100,134 52,112 52,86" fill="#E3F2FD"/>
+  <!-- Tassel string -->
+  <line x1="174" y1="88" x2="174" y2="128" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <!-- Tassel ball -->
+  <circle cx="174" cy="132" r="8" fill="white"/>
+</svg>

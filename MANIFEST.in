@@ -1,0 +1,4 @@
+include requirements.txt
+include LICENSE.txt
+include README.md
+recursive-include brusnika_lms *.json *.js *.css *.html *.png *.svg *.py

@@ -1,0 +1,13 @@
+app_name = "brusnika_lms"
+app_title = "Brusnika LMS"
+app_publisher = "Brusnika Solutions"
+app_description = "Connect Frappe / ERPNext with Brusnika.LMS"
+app_email = "info@brusnika-solutions.com"
+app_license = "MIT"
+app_version = "1.0.0"
+app_icon = "octicon octicon-mortar-board"
+app_color = "#1976D2"
+app_logo_url = "/assets/brusnika_lms/images/logo.svg"
+support_url = "https://brusnika-lms.com/"
+privacy_policy_url = "https://brusnika-lms.com/privacy"
+required_apps = ["frappe"]

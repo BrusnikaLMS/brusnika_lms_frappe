@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "creation": "2026-01-01 10:00:00.000000",
+ "docstatus": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lms_url",
+  "section_break_instructions",
+  "instructions_html"
+ ],
+ "fields": [
+  {
+   "fieldname": "lms_url",
+   "fieldtype": "Data",
+   "label": "Brusnika.LMS URL",
+   "description": "URL of your Brusnika.LMS instance (e.g. https://lms.yourcompany.com)"
+  },
+  {
+   "fieldname": "section_break_instructions",
+   "fieldtype": "Section Break",
+   "label": "How to Connect"
+  },
+  {
+   "fieldname": "instructions_html",
+   "fieldtype": "HTML",
+   "label": "Instructions",
+   "options": "<ol><li>Go to <b>Settings &rarr; My Profile &rarr; API Access</b> and generate API keys for the admin account.</li><li>Open your Brusnika.LMS admin panel.</li><li>Navigate to <b>Integrations &rarr; Frappe / ERPNext</b>.</li><li>Enter this Frappe URL, the API Key, and the API Secret.</li><li>Click <b>Connect</b> — users and departments will sync automatically.</li></ol>"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-01-01 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Brusnika LMS",
+ "name": "Brusnika LMS Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 0,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 0,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "sync_on_migrate": 1
+}
