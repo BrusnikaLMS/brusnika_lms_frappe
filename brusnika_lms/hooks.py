@@ -10,4 +10,5 @@ app_color = "#1976D2"
 app_logo_url = "/assets/brusnika_lms/images/logo.svg"
 support_url = "https://brusnika-lms.com/"
 privacy_policy_url = "https://brusnika-lms.com/privacy"
+frappe_minimum_version = "14.0.0"
 required_apps = ["frappe"]
