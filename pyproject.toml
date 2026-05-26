@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "brusnika_lms"
+authors = [{name = "Brusnika Solutions", email = "info@brusnika-solutions.com"}]
+description = "Connect Frappe / ERPNext with Brusnika.LMS"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+dynamic = ["version"]
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://brusnika-lms.com/"
